@@ -23,7 +23,7 @@ ${ROOT}
 
 2. Mask Token Preparation
 As the SAM (Segment Anything Model) has been set to a frozen state, we've optimized our resource usage by pre-extracting the image mask tokens. This step significantly reduces memory consumption during model training and inference. We have made these pre-extracted mask tokens available for easy access:
-[Download Masks Tokens from One Drive](https://surreyac-my.sharepoint.com/:f:/r/personal/hy00610_surrey_ac_uk/Documents/RegionSpot/datasets_mask_tokens_vit_b?csf=1&web=1&e=x1yQdG)
+[Download Masks Tokens from One Drive](https://1drv.ms/f/s!AgWqwlwga-5Ka9-HT1L83INBHsU?e=wTbJz5)
 We anticipate the data to be organized as follows:
 
 ``` bash
@@ -44,7 +44,7 @@ ${ROOT}
 ```
 After downloading the LVIS dataset, also obtain the bounding box results from GLIP by downloading the provided JSON file:
 
-- Download the file from [GLIP Box Results](https://surreyac-my.sharepoint.com/personal/hy00610_surrey_ac_uk/_layouts/15/download.aspx?UniqueId=8b8dc09e482d4af0b08d9ec9d4965c6d&e=JzxSTx).
+- Download the file from [GLIP Box Results]( https://1drv.ms/u/s!AgWqwlwga-5KdWacuP6dTKajYRg?e=PIBdYd).
 
 Once downloaded, place the JSON file in the `glip_results` directory within `datasets`:
 ```
