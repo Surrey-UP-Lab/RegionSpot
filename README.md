@@ -50,7 +50,7 @@ If you use Recognize Any Regions in your research or wish to refer to the baseli
 @inproceedings{RegionSpot,
   title={Recognize Any Regions},
   author={Yang, Haosen and Ma, Chuofan and Wen, Bin and Jiang, Yi and Yuan, Zehuan and Zhu, Xiatian},
-  journal={arXiv preprint 	arXiv:2311.01373},
+  journal={arXiv preprint arXiv:2311.01373},
   year={2023}
 }
 `````
