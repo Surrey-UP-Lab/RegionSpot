@@ -1,0 +1,19 @@
+_BASE_: "Base-RegionSpot.yaml"
+MODEL:
+  WEIGHTS: "./output/regionspot_obj365_bl/model_final.pth"
+  CLIP_TYPE: CLIP_400M_Large
+DATALOADER:
+  SAMPLER_TRAIN: "MultiDatasetSampler"
+DATASETS:
+  TRAIN: ("objects365_train", "v3det_train","openimages_train",)
+  TEST:  ()
+TEST:
+  EVAL_PERIOD: 0
+SOLVER:
+  STEPS: (350000, 420000)
+  MAX_ITER: 450000  
+INPUT:
+  CROP:
+    ENABLED: True
+  FORMAT: "RGB"
+OUTPUT_DIR: './output/regionspot_alldata_bl'

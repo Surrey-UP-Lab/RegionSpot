@@ -1,0 +1,21 @@
+_BASE_: "Base-RegionSpot.yaml"
+MODEL:
+  CLIP_TYPE: CLIP_400M_Large
+  TRAINING: False
+  BOX_TYPE: 'PRED_BOX'
+  MASK_ON: True
+DATASETS:  # LVIS
+  TRAIN: ("lvis_v1_train",)
+  TEST: ("lvis_v1_val",)
+DATALOADER:
+  SAMPLER_TRAIN: "RepeatFactorTrainingSampler"
+  REPEAT_THRESHOLD: 0.001
+INPUT:
+  CROP:
+    ENABLED: True
+  FORMAT: "RGB"
+TEST:  # LVIS
+  EVAL_PERIOD: 0  # disable eval during train since long time
+
+OUTPUT_DIR: './output/eval'
+
