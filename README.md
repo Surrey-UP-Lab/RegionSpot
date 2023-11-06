@@ -13,9 +13,9 @@
 ## Models
 Method | Box AP_rare| Box AP_all | Mask AP_rare | Mask AP_all  | Download
 --- |:---:|:---:|:---: |:---: |:---:
-RegionSpot-BB | 19.1 | 20.9 | 17.5 | 17.8| [model](https://surreyac-my.sharepoint.com/:u:/r/personal/hy00610_surrey_ac_uk/Documents/RegionSpot/regionspot_bb.pth?csf=1&web=1&e=8sZBGs)
-RegionSpot-BL| 26.0 | 23.7 | 22.8 | 20.2 | [model](https://surreyac-my.sharepoint.com/:u:/r/personal/hy00610_surrey_ac_uk/Documents/RegionSpot/regionspot_bl.pth?csf=1&web=1&e=DJFu00)
-RegionSpot-BL@336px | 26.3 | 25.0 | 23.4 | 21.3 | [model](https://surreyac-my.sharepoint.com/:u:/r/personal/hy00610_surrey_ac_uk/Documents/RegionSpot/regionspot_bl_336.pth?csf=1&web=1&e=5YxPzO)
+RegionSpot-BB | 19.1 | 20.9 | 17.5 | 17.8| [model]( https://1drv.ms/u/s!AgWqwlwga-5Kc1WU0Q_iFsc_O-w?e=DgN1xI)
+RegionSpot-BL| 26.0 | 23.7 | 22.8 | 20.2 | [model]( https://1drv.ms/u/s!AgWqwlwga-5KdKXfWxTuronI6ts?e=aGhZxj)
+RegionSpot-BL@336px | 26.3 | 25.0 | 23.4 | 21.3 | [model](https://1drv.ms/u/s!AgWqwlwga-5KcrrUYKtvTFf4MGY?e=QHZd7u)
 
 
 
