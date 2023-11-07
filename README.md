@@ -8,6 +8,7 @@
 > Haosen Yang, Chuofan Ma, Bin Wen, Yi Jiang, Zehuan Yuan, Xiatian Zhu   
 
 ## Updates
+- **`2023/11/7`**: Checkpoints are available on both [Google Drive](https://drive.google.com/drive/folders/1jPfdzsZTRd95xOX7YcSJkw1IuI_OhjY4?usp=sharing) and [OneDrive](https://onedrive.live.com/?id=4AEE6B205CC2AA05%21106&cid=4AEE6B205CC2AA05).
 - **`2023/11/6`**: Code is available Now!
 
 ## Models
