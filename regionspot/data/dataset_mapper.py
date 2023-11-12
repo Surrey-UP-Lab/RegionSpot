@@ -49,7 +49,7 @@ def build_transform_gen(cfg, is_train):
 class RegionSpotDatasetMapper:
     """
     A callable which takes a dataset dict in Detectron2 Dataset format,
-    and map it into a format used by DiffusionDet.
+    and map it into a format used by RegionSpot.
 
     The callable currently does the following:
 
