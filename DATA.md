@@ -11,11 +11,10 @@ cd ..
 ## Data
 ### Training
 1. Datasets preparation
-    Download the datasets from their respective official websites. Ensure that you have [COCO](https://cocodataset.org/#home), [objects365](https://www.objects365.org/overview.html), [V3Det](https://v3det.openxlab.org.cn/) and [OpenImages V6](https://storage.googleapis.com/openimages/web/download_v6.html). Organize the downloaded datasets as follows:
+    Download the datasets from their respective official websites. Ensure that you have [objects365](https://www.objects365.org/overview.html), [V3Det](https://v3det.openxlab.org.cn/) and [OpenImages V6](https://storage.googleapis.com/openimages/web/download_v6.html). Organize the downloaded datasets as follows:
 ```
 ${ROOT}
     -- datasets
-        --coco
         --objects365
         --v3det
         --openimages
@@ -36,10 +35,11 @@ ${ROOT}
             
 ```
 ### Evaluation
-For model evaluation, download the LVIS dataset from [LVIS Dataset](https://www.lvisdataset.org/) and place it in the `datasets` folder at the project root:
+For model evaluation, download the LVIS dataset from [COCO](https://cocodataset.org/#home), [LVIS Dataset](https://www.lvisdataset.org/) and place it in the `datasets` folder at the project root:
 ```
 ${ROOT}
     -- datasets
+        --coco
         --lvis
 ```
 After downloading the LVIS dataset, also obtain the bounding box results from GLIP by downloading the provided JSON file:
