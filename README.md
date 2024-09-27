@@ -1,4 +1,4 @@
-# Recognize Any Regions
+# Recognize Any Regions(NeurIPS 2024)
 
 ![teaser](assets/framework.jpg)
 
