@@ -48,10 +48,10 @@ See the demo.py on using RegionSpot with box prompts for more details.
 If you use Recognize Any Regions in your research or wish to refer to the baseline results published here, please use the following BibTeX entry.
 
 ```BibTeX
-@inproceedings{RegionSpot,
-  title={Recognize Any Regions},
+@inproceedings{yang2023recognize,
+  title={Recognize any regions},
   author={Yang, Haosen and Ma, Chuofan and Wen, Bin and Jiang, Yi and Yuan, Zehuan and Zhu, Xiatian},
-  journal={arXiv preprint arXiv:2311.01373},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
   year={2023}
 }
 `````
